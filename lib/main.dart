@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_todo_unit_test/presentation/home/home_screen.dart';
+import 'package:my_todo_unit_test/presentation/screen/home/home_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
