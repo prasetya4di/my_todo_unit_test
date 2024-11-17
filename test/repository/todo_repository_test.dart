@@ -9,7 +9,7 @@ import 'package:my_todo_unit_test/data/source/network/todo/todo_network.dart';
 import 'package:my_todo_unit_test/domain/entity/todo.dart';
 
 import '../util/dummy_builder.dart';
-import 'todo_repository.mocks.dart';
+import 'todo_repository_test.mocks.dart';
 
 @GenerateMocks([TodoNetwork])
 void main() {
