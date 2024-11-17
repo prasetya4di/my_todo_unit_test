@@ -1,9 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_todo_unit_test/data/repositories/mapper/todo_mapper.dart';
+import 'package:my_todo_unit_test/data/repository/mapper/todo_mapper.dart';
 import 'package:my_todo_unit_test/data/source/network/todo/impl/todo_network_impl.dart';
 import 'package:my_todo_unit_test/data/source/network/todo/todo_network.dart';
 import 'package:my_todo_unit_test/domain/entity/todo.dart';
-import 'package:my_todo_unit_test/domain/repositories/todo_repository.dart';
+import 'package:my_todo_unit_test/domain/repository/todo_repository.dart';
 
 class TodoRepositoryImpl implements TodoRepository {
   final TodoNetwork _todoNetwork;

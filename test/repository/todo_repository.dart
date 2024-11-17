@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:my_todo_unit_test/data/repositories/todo_repository_impl.dart';
+import 'package:my_todo_unit_test/data/repository/todo_repository_impl.dart';
 import 'package:my_todo_unit_test/data/source/network/todo/impl/todo_network_impl.dart';
 import 'package:my_todo_unit_test/data/source/network/todo/todo_network.dart';
 import 'package:my_todo_unit_test/domain/entity/todo.dart';
