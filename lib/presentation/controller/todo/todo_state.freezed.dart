@@ -29,7 +29,6 @@ mixin _$TodoState {
 abstract class $TodoStateCopyWith<$Res> {
   factory $TodoStateCopyWith(TodoState value, $Res Function(TodoState) then) =
       _$TodoStateCopyWithImpl<$Res, TodoState>;
-
   @useResult
   $Res call({AsyncValue<List<Todo>> todos});
 }
@@ -41,7 +40,6 @@ class _$TodoStateCopyWithImpl<$Res, $Val extends TodoState>
 
   // ignore: unused_field
   final $Val _value;
-
   // ignore: unused_field
   final $Res Function($Val) _then;
 
@@ -67,7 +65,6 @@ abstract class _$$TodoStateImplCopyWith<$Res>
   factory _$$TodoStateImplCopyWith(
           _$TodoStateImpl value, $Res Function(_$TodoStateImpl) then) =
       __$$TodoStateImplCopyWithImpl<$Res>;
-
   @override
   @useResult
   $Res call({AsyncValue<List<Todo>> todos});

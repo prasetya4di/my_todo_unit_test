@@ -41,6 +41,7 @@ dependencies:
   google_fonts: ^6.2.1
   http_mock_adapter: ^0.6.1
   mockito: ^5.4.4
+  auto_route: ^9.2.2
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +55,7 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   build_runner: ^2.4.13
   freezed: ^2.5.7
+  auto_route_generator: ^9.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
