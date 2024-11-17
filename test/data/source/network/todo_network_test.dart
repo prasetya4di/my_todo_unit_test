@@ -23,6 +23,11 @@ void main() {
       ]);
     });
 
+    tearDown(() {
+      dioAdapter.close();
+      container.dispose();
+    });
+
     test('Fetch list todo success', () async {
       final file = File('test/data/source/network/todo_response.json');
       final jsonString = await file.readAsString();
